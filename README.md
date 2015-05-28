@@ -1,5 +1,7 @@
 [Alpine Linux](http://www.alpinelinux.org/)
 ============
+Forked from [seansummers/docker-alpine-apk-static](https://github.com/seansummers/docker-alpine-apk-static).
+My only change is switching the architecture from 64bit to 32bit.
 
 This is a minimum viable Alpine image: only alpine-keys
 installed (to allow for signed package installing using
@@ -16,7 +18,7 @@ You will have to install busybox-static, busybox,
 alpine-baselayout, or alpine-base if you want a shell
 (in order of size).
 
-As of 2015-05-19, this image is 8.895 MB.
+As of 2015-05-19, this image is ~9 MB.
 
-https://registry.hub.docker.com/u/seansummers/alpine-apk-static/
+https://registry.hub.docker.com/u/boggart/alpine-apk-static-32bit/
 
